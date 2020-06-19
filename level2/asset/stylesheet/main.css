@@ -81,13 +81,14 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -100,105 +101,116 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
+
 body {
-  line-height: 1;
+    line-height: 1;
 }
+
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
+
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
+
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-/* MASTER-STYLING */
-
+ 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-body {
-  background-color: #efefef;
-}
+
+ body{
+     background-color: #f2f2f2;
+ }
+
 h1 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin: 20px 0;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px 0;
 }
+
 h2 {
-  font-size: 2rem;
-  margin: 15px 0;
+    font-size: 2rem;
+    margin: 15px 0;
 }
+
 p {
-  line-height: 1.3;
-  margin-bottom: 15px;
+    line-height: 1.3;
+    margin-bottom: 15px;
 }
 
-/* LAYOUT-STYLING */
-
+ 
 main {
-  background-color: white;
-  margin: 0 auto 20px auto;
-  width: 70%;
+    background-color: white;
+    margin: 0 auto 20px auto;
+    width: 70%;
 }
+
 .content,
 article,
 aside {
-  float: left;
-  margin: 0 1.5%;
+    float: left;
+    margin: 0 1.5%;
 }
+
 .content,
 aside {
-  width: 21%;
+    width: 21%;
 }
+
 article {
-  width: 49%;
+    width: 49%;
 }
 
 /* Clearfix */
 
 .cf::before,
 .cf::after {
-  content: '';
-  display: table;
+    content: '';
+    display: table;
 }
+
 .cf::after {
-  clear: both;
+    clear: both;
 }
 
-/* Section & aside-styling */
-
+ 
 .content,
 aside {
-  padding: 60px 20px;
-  font-size: 18px;
+    padding: 60px 20px;
+    font-size: 18px;
 }
+
 li {
-  padding: 3px 0;
+    padding: 3px 0;
 }
 
-/* Article-styling */
-
+ 
 article img {
-  width: 100%;
+    width: 100%;
 }
+
 p.aside {
-  margin-left: 20px;
+    margin-left: 20px;
 }
