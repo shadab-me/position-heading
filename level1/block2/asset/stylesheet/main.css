@@ -138,11 +138,11 @@ body {
 }
 
 h1 {
-    font-size: 1.6em;
+    font-size: 48px;
 }
 
 h2 {
-    font-size: 1.4em;
+    font-size: 36px;
 }
 
 a {
@@ -188,7 +188,15 @@ nav {
     vertical-align: middle;
 }
 
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
 
+.clearfix:after {
+    clear: both;
+}
 
 main {
     margin: 0 auto;
