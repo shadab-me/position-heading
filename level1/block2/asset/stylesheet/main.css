@@ -151,16 +151,6 @@ a {
     padding-right: 10px;
 }
 
-a:hover {
-    color: #333;
-}
-
-li:last-child a {
-    padding-right: 0;
-}
-
-
-
 header {
     background-color: #1f4b68;
 }
