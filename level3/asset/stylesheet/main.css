@@ -94,13 +94,25 @@ padding: 10px;
      left:480px;
      text-align: center;
  }
+ article{ 
+    box-sizing: border-box;
+    float: left;
+    width: 33%;
+    padding: 25px 0px 0px 25px;
+ }
  article h3{
      color: #2196F3;
  }
+ article a{
+     background-color: blue;
+     color: white;
+     font-weight: bold;
+     margin-top: 66px;
+      
+   }
+
+   span{
+       padding: 45px;
+    }
  
- article{ 
-     box-sizing: border-box;
-     float: left;
-     width: 33%;
-     padding: 25px 0px 0px 25px;
-  }
+ 
