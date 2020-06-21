@@ -51,6 +51,9 @@ h1{
     font-size: 48px;
 
 }
+h3{
+    font-size: 24px;
+}
 p{
     font-size: 18px;
 }
@@ -91,4 +94,13 @@ padding: 10px;
      left:480px;
      text-align: center;
  }
+ article h3{
+     color: #2196F3;
+ }
  
+ article{ 
+     box-sizing: border-box;
+     float: left;
+     width: 33%;
+     padding: 25px 0px 0px 25px;
+  }
