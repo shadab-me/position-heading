@@ -291,3 +291,18 @@ font-weight: 200;
 .user-text h1{
     font-weight: 300;
 }
+
+.text{
+    text-align: center;
+    color: #2196F3;
+}
+.text h1{
+    font-weight: 300;
+    padding: 25px;
+    
+}
+.text p{
+    font-weight: 200;
+    opacity: .8;
+}
+
