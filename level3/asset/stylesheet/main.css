@@ -318,3 +318,23 @@ font-weight: 200;
 .rm h3{
     padding: 10px 0px;
 }
+footer {
+    padding: 25px 0;
+}
+
+.line-border {
+    border-top: .1px solid var(--color-gray);
+}
+
+footer small {
+    float: left;
+}
+
+.social-connect {
+    float: right;
+}
+
+.social-connect li {
+    display: inline-block;
+    padding: 0 10px;
+}
