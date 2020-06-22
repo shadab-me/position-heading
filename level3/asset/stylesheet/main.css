@@ -223,7 +223,7 @@ article h3 {
 }
 article p{
     line-height: 1.5;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 article a {
@@ -237,11 +237,10 @@ article a {
  .product{
      background-color: white;
  } 
- .user{
-     margin-top: 25px;
-     background-color: #2196F3;
-     height: 420px;
+  main{
+      background-color: #2196F3;
   }
+  
  /* Clearfix */
 
 .cf::before,
@@ -252,4 +251,30 @@ article a {
 
 .cf::after {
     clear: both;
+}
+.dev{
+ }
+.user{
+    float: left;
+    width: 20%;
+}
+.user p{
+    color: white;
+}
+.user{
+    text-align: center;
+    border: 1px solid #f2f2f2f2;
+     padding: 66px;
+ 
+}
+.user img{
+     border-radius: 50%;
+      
+}
+
+.user-text{
+    text-align: center;
+    color: white;
+    padding: 25px;
+    font-weight: 300;
 }
