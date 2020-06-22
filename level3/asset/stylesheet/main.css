@@ -109,6 +109,8 @@ section {
 
 body {
     line-height: 1;
+    font-family: 'Lato', sans-serif;
+
 }
 
 ol,
@@ -151,6 +153,13 @@ a {
     text-decoration: none;
     color: white;
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 .hero {
     background-color: #2196F3;
@@ -191,6 +200,15 @@ a {
     left: 480px;
     text-align: center;
 }
+.hero-text h1{
+font-weight: 300;
+padding: 36px;
+
+}
+.hero-text p{
+    font-weight: 200;
+    opacity: .8;
+}
 
 article {
     box-sizing: border-box;
@@ -201,30 +219,37 @@ article {
 
 article h3 {
     color: #2196F3;
+    padding: 66px 0px 25px 0px;
+}
+article p{
+    line-height: 1.5;
+    font-weight: 300;
 }
 
 article a {
     background-color: blue;
     color: white;
     font-weight: bold;
-    margin-top: 66px;
+    padding: 5px;
+    margin-top: 25px;
 }
 
-span {
-    padding: 45px;
-
-}
  .product{
      background-color: white;
  } 
-.user{
-    float: left;
-    text-align: center;
-    margin: 10px;
+ .user{
+     margin-top: 25px;
+     background-color: #2196F3;
+     height: 420px;
+  }
+ /* Clearfix */
 
+.cf::before,
+.cf::after {
+    content: '';
+    display: table;
 }
- 
-.user-text {
-    text-align: center;
+
+.cf::after {
+    clear: both;
 }
- 
