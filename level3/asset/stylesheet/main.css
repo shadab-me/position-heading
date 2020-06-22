@@ -305,4 +305,16 @@ font-weight: 200;
     font-weight: 200;
     opacity: .8;
 }
+ .rm img{
+    width: 100%;
+}
 
+
+.rm{
+    float: left;
+    width: 50%;
+   margin-top: 25px;
+}
+.rm h3{
+    padding: 10px 0px;
+}
