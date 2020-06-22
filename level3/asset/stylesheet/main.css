@@ -253,6 +253,8 @@ article a {
     clear: both;
 }
 .dev{
+    padding: 66px;
+    margin-top: 66px;
  }
 .user{
     float: left;
@@ -260,15 +262,19 @@ article a {
 }
 .user p{
     color: white;
+    padding: 20px;
 }
 .user{
-    text-align: center;
+     text-align: center;
     border: 1px solid #f2f2f2f2;
-     padding: 66px;
- 
+    margin: 10px;
+   
 }
 .user img{
-     border-radius: 50%;
+    display: inline-block;
+    width: 80%;
+    margin: 25px auto;
+    border-radius: 50%;
       
 }
 
@@ -276,5 +282,12 @@ article a {
     text-align: center;
     color: white;
     padding: 25px;
+    font-weight: 300;
+}
+.user-text p{
+padding: 15px;
+font-weight: 200;
+}
+.user-text h1{
     font-weight: 300;
 }
